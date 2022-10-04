@@ -19,24 +19,20 @@ body{
     box-sizing: border-box;
 }
 .logo_img{
-    width: 140px;
+    width: 150px;
+    margin-left: 35px;
 }
 
 
- .logo{
-   display: flex;
-   justify-content: flex-start;
-   align-items: flex-start;
-   width: 130px;
-   margin-left: 23px;
-   margin-bottom: 20px;
-
- }
+ 
 .btns{
-    width: 80%;
     display: flex;
-    justify-content: flex-end  ;
-    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: flex-end, space-between;
+    width: 80%;
+    margin: 10px, 15px;
+    min-height: 10%;
+    padding-top: 30px;
 
 
 }
@@ -45,12 +41,13 @@ body{
     display: flex;
     width: 110px;
     text-decoration: none;
-    background-color: transparent;
+    background: blur;
     /* outline: 1px white bold; */
     border-radius: 2px;
     justify-content: center;
     align-items: center;
     border: white 2px solid;
+    margin-right: 30px;
 }
 #eng_btn English{
     text-decoration: none;
@@ -63,6 +60,7 @@ body{
     border: 1px;
     outline: none;
     color: white;
+    font-size: 18px;
     
 }
 .main{
